@@ -33,6 +33,6 @@
   </div>
 </br>
 <a href="{% url 'home' %}" class="btn btn-primary">Return</a>
-<a href="{% url 'home' %}" class="btn btn-danger">Delete</a>
+<a href="{% url 'delete_record' customer_record.id %}" class="btn btn-danger">Delete</a>
 
 {% endblock %}
